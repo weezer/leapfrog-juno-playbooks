@@ -67,6 +67,7 @@
     state: present
     update_cache: yes
     cache_valid_time: 600
+    force: yes
   with_items: apt_common_packages
   when: "ansible_distribution_version in ['12.04', '13.04', '13.10', '14.04']"
   register: common_packages
