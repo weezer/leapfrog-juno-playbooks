@@ -114,6 +114,7 @@ host_kernel_tuning:
 
 ## Base Packages
 apt_common_packages:
+  - libxml2=2.9.1+dfsg1-3ubuntu4.8q
   - vlan
   - python-software-properties
   - python-dev
